@@ -1,0 +1,8 @@
+.Kard {
+	width: 40%;
+	margin: 60px auto;
+	border: 2px solid #eee;
+	box-shadow: 0 2px 3px #ccc;
+	padding: 50px;
+	text-align: center;
+}
