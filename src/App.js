@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Kard from './Kard/Kard';
+import NavMenu from './NavigationMenu/NavMenu';
 
 import german from "./Resources/german.json"
 
@@ -45,6 +46,9 @@ console.log("test a.json :: " + JSON.stringify(german));
 
    return (
       <div className="App">
+      <div>
+          <NavMenu></NavMenu>
+        </div>
         <header className="Header">
           <h1>FlashKardz</h1>
 

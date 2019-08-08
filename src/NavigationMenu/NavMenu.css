@@ -1,0 +1,23 @@
+.NavButtons {
+	overflow: hidden;
+	background-color: turquoise;
+}
+
+.NavButtons a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.NavButtons a:hover {
+	color: white;
+	background-color: grey;
+}
+
+.NavButtons a.active {
+	color: white;
+	background-color: black;
+}
