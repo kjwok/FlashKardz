@@ -53,7 +53,8 @@ console.log("test a.json :: " + JSON.stringify(german));
           <Kard 
           card={german[index]}
           //theres a click in here and in the kard.js FIX
-          click={this.flipSides}></Kard>
+         // click={this.flipSides}
+         ></Kard>
         </div>
         <div>
           <button
