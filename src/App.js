@@ -8,15 +8,9 @@ import german from "./Resources/german.json"
 class App extends Component {
   state = {
     newKard: false,
-    flipped: false,
     index:  0
   }
   
-  flipSides = (event) => {
-    const flip = this.state.flipped;
-    this.setState({flipped: !flip})
-  }
-
   nextKard = (event) => {
     const doesShow = this.state.newKard;
     this.setState({newKard: !doesShow})
